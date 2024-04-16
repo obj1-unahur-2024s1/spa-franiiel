@@ -1,6 +1,7 @@
-/** First Wollok example */
-object wollok {
-	method howAreYou() {
-		return 'I am Wolloktastic!'
+import personas.*
+object spa{
+	method atender(persona){
+		persona.recibirMasajes()
+		persona.banioDeVapor()
 	}
 }
